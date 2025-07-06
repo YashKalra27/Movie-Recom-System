@@ -87,5 +87,25 @@ Users often struggle to pick their next movie. Generic lists don’t adapt to un
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/movie-recommender-system.git
+   git clone https://github.com/YashKalra27/Movie-Recom-System.git
    cd movie-recommender-system
+
+2.	**Create virtual environment (recommended)**
+   
+   ```bash
+   python -m venv venv
+   source venv/bin/activate (Mac)
+   # On Windows: venv\Scripts\activate3.
+   ```
+
+3. **Install dependencies**
+   
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+4. **Run locally**
+   
+   ```bash
+   streamlit run app.py
+   ```
