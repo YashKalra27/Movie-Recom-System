@@ -30,8 +30,6 @@ A content-based Movie Recommender System that suggests top 5 similar movies base
 - [Setup & Installation](#setup--installation)
 - [How It Works](#how-it-works)
 - [Future Enhancements](#future-enhancements)
-- [Credits](#credits)
-- [License](#license)
 
 ---
 
@@ -125,3 +123,26 @@ Users often struggle to pick their next movie. Generic lists don’t adapt to un
    ```bash
    streamlit run app.py
    ```
+   
+---
+
+## 🔍 How It Works
+
+1. User selects a movie title from the dropdown menu.
+2. The app finds that movie’s index in the dataset.
+3. It computes similarity scores using the precomputed cosine similarity matrix.
+4. It retrieves the top 5 most similar movies.
+5. Posters for these movies are fetched dynamically using the TMDB API.
+6. The recommended movie titles and posters are displayed in a neat layout.
+
+This entire flow happens in real-time on your deployed Streamlit app.
+
+---
+
+## 📈 Future Enhancements
+
+- 🔄 Combine content-based filtering with collaborative filtering for hybrid recommendations.
+- 🔐 Add user authentication and preference saving for personalized lists.
+- ⭐ Integrate user ratings and reviews for more context-aware suggestions.
+- 📱 Develop a mobile-friendly interface for better accessibility.
+- 🐳 Package the app using Docker for easier deployment on any cloud provider.
