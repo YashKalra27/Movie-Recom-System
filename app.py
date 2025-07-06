@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import requests
 
-# ==================== Custom CSS ==================== #
+# ================= Custom CSS ==================== #
 st.markdown(
     """
     <style>
