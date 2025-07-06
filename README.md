@@ -4,6 +4,18 @@ A content-based Movie Recommender System that suggests top 5 similar movies base
 
 ---
 
+## 🖼️ Screenshots
+
+| Website Home | Avatar Recommendation |
+|--------------|-----------------------|
+| ![Website](./assets/website.png) | ![Avatar](./assets/avatar.png) |
+
+| Spider Man Recommendation | Batman Awakens Recommendation |
+|---------------------------|--------------------------------|
+| ![Spider Man](./assets/spiderman.png) | ![Batman Awakens](./assets/batmanawakens.png) |
+
+---
+
 ## 📌 Table of Contents
 
 - [Overview](#overview)
