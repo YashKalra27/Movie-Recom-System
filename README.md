@@ -12,7 +12,7 @@ A content-based Movie Recommender System that suggests top 5 similar movies base
 
 ### 🎥 Avatar Recommendation
 
-![Avatar](./assets/avatar.png)
+![Avatar](./assets/avatar.jpeg)
 
 ### 🕷️ Spider Man Recommendation
 
